@@ -1,0 +1,15 @@
+Steps to run the program:
+
+To run the Django app on your local computer, set up a Python development environment, including Python, pip , and virtualenv .
+Create an isolated Python environment, and install dependencies by running requirements.txt
+Run the Django migrations to set up the models
+Start a local web server: python manage.py runserver
+NOTE: Django secret key has been omitted, please fill your secret key before setting up the project.
+Press Control+C to stop the local web server.
+
+To run the react app, open the proj1 folder in command prompt.
+Start another local server: npm start proj1
+On your browser, open http://localhost:3000 to view the project.
+
+To view the admin database, create a new superuser and open http://127.0.0.1:8000/admin
+
